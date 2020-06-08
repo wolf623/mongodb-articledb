@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://172.0.1.172:27017,172.0.1.172:27117/articledb
+    #uri: mongodb://172.0.1.172:27017,172.0.1.172:27018,172.0.1.172:27019/articledb?connect=replicate&slaveOk=true&replicaset=myrs
+    #host: 172.0.1.172
+      #database: articledb
+      #port: 27017
+      #uri: mongodb://172.0.1.172:27017/articledb
